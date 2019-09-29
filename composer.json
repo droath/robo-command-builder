@@ -1,0 +1,21 @@
+{
+    "name": "droath/robo-command-builder",
+    "description": "Build Robo task commands from a single definition file.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis Tomka",
+            "email": "underoathosx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "consolidation/robo": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Droath\\RoboCommandBuilder\\": "./src"
+        }
+    }
+}
