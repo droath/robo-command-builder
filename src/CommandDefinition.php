@@ -86,9 +86,9 @@ class CommandDefinition implements CommandDefinitionInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeDefinition = new TreeBuilder('definition');
+        $treeDefinition = new TreeBuilder();
 
-        $rootNode = $treeDefinition->getRootNode();
+        $rootNode = $treeDefinition->root('definition');
         $rootNode
             ->children()
                 ->scalarNode('binary')
